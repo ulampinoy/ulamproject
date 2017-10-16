@@ -1,0 +1,24 @@
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+
+baseurl = "http://www.ulampinoy.com/"
+title = "The Ulampinoy Project"
+theme = "Adobo"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+	archive = "archives"
+	post = "posts"
+	video = "videos"
+	about = "about"
+	ebook = "ebook"
+
+[params.hero]
+	title = "Lutong bahay na punô ng pagmamahal, kulay at sarap"
+
+# Pagination
+paginate = 10
+paginatePath = "page"

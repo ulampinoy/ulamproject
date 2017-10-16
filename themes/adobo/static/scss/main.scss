@@ -1,0 +1,29 @@
+body {
+    background-color: #404040;
+}
+
+.lumpia-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+}
+
+.specials {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+.specials-content {
+  padding: 1em;
+}
+.specials-image {
+  img {
+    display: block;
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+  }
+     
+}
