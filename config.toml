@@ -4,7 +4,7 @@ publishDir = "public"
 
 baseurl = "http://www.ulampinoy.com/"
 title = "The Ulampinoy Project"
-theme = "Adobo"
+theme = "adobo"
 
 [taxonomies]
 	tag = "tags"
