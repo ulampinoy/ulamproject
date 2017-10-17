@@ -1,10 +1,5 @@
-contentDir = "content"
-layoutDir = "layouts"
-publishDir = "public"
-
 baseurl = "https://www.ulampinoy.com/"
 title = "The Ulampinoy Project"
-theme = "adobo"
 
 [taxonomies]
 	tag = "tags"
