@@ -6,16 +6,16 @@
     </header>
     <main>
         <h2 class="section-name">{{.Data.Pages.Title}}</h2>
-        <section class="video-gallery">
+        <section class="gallery">
             {{ range .Data.Pages }}
-            <div class="video-gallery-item">
+            <div class="gallery-item">
                 <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                 <p class="excerpt">
                     {{ .Params.excerpt }}
                 </p>
             </div>
-            {{- end -}}
+            {{ end }}
         </section>
 
         <div class="adverts">
