@@ -1,8 +1,4 @@
-contentDir = "content"
-layoutDir = "layouts"
-publishDir = "public"
-
-baseurl = "http://www.ulampinoy.com/"
+baseurl = "https://www.ulampinoy.com/"
 title = "The Ulampinoy Project"
 theme = "adobo"
 
@@ -17,7 +13,7 @@ theme = "adobo"
 	ebook = "ebook"
 
 [params.hero]
-	title = "Lutong bahay na punô ng pagmamahal, kulay at sarap"
+	title = "Tahanang na punô ng pagmamahal, kulay at sarap"
 
 # Pagination
 paginate = 10
