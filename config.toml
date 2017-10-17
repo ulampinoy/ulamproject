@@ -1,5 +1,10 @@
-baseurl = "https://www.ulampinoy.com/"
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+
+baseurl = "http://www.ulampinoy.com/"
 title = "The Ulampinoy Project"
+theme = "Adobo"
 
 [taxonomies]
 	tag = "tags"
@@ -12,7 +17,7 @@ title = "The Ulampinoy Project"
 	ebook = "ebook"
 
 [params.hero]
-	title = "Tahanan na punô ng pagmamahal, kulay at sarap"
+	title = "Lutong bahay na punô ng pagmamahal, kulay at sarap"
 
 # Pagination
 paginate = 10

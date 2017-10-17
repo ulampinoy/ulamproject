@@ -1,23 +1,23 @@
-{{ partial "header" . }}
-
+{{ partial "header.html" . }}
 <div class="container">
     <header class="top">
         <h1><a href="#">Ulam Pinoy Project</a></h1>
         {{ partial "nav" . }}
     </header>
-    <main class="archive">
-        <h2 class="section-name">From the Ulam Archive</h2>
-        <section class="archive-gallery">
+    <main class="videos">
+        <h2 class="section-name">Video Recipes</h2>
+        <section class="video-gallery">
             {{ range .Data.Pages }}
-            <div class="archive-gallery-item">
+            <div class="video-gallery-item">
                 <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt=""></a>
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                 <p class="excerpt">
                     {{ .Params.excerpt }}
                 </p>
             </div>
-            {{ end }}
+            {{- end -}}
         </section>
+
         <div class="adverts">
             {{ partial "ads-bottom-respo" . }}
         </div>
