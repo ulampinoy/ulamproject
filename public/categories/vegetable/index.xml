@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vegetable on The Ulampinoy Project</title>
+    <link>https://www.ulampinoy.com/categories/vegetable/</link>
+    <description>Recent content in Vegetable on The Ulampinoy Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 03 Jan 2015 22:32:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ulampinoy.com/categories/vegetable/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kimchi</title>
+      <link>https://www.ulampinoy.com/archive/2015-01-03-kimchi/</link>
+      <pubDate>Sat, 03 Jan 2015 22:32:47 +0000</pubDate>
+      
+      <guid>https://www.ulampinoy.com/archive/2015-01-03-kimchi/</guid>
+      <description>Spicy and sour are the flavors that could compliment any dish and enhance your appetite. Kimchi is both, spicy and sour.
+It&amp;rsquo;s not easy to find a good kimchi here in Madrid. The bottled kimchi available at the Chinese store taste sweet! Really? Sweet kimchi? No thanks!
+We found a proper Korean store in the Mercado de Maravillas in Cuatro Caminos. The shopkeeper is a Korean lady making her own kimchi.</description>
+    </item>
+    
+  </channel>
+</rss>

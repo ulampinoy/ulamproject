@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eggs on The Ulampinoy Project</title>
+    <link>https://www.ulampinoy.com/categories/eggs/</link>
+    <description>Recent content in Eggs on The Ulampinoy Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Jul 2011 00:34:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ulampinoy.com/categories/eggs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Revuelto de Setas</title>
+      <link>https://www.ulampinoy.com/2011/07/21/revuelto-setas/</link>
+      <pubDate>Thu, 21 Jul 2011 00:34:35 +0000</pubDate>
+      
+      <guid>https://www.ulampinoy.com/2011/07/21/revuelto-setas/</guid>
+      <description>Amazing symphony of flavors brought by the mix of five different mushrooms
+ Frozen mixed mushrooms   Interesting fact: People who collect mushrooms for consumption are known as &amp;ldquo;mycophagists&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fruits Brunch on The Ulampinoy Project</title>
+    <link>https://www.ulampinoy.com/categories/fruits-brunch/</link>
+    <description>Recent content in Fruits Brunch on The Ulampinoy Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Jul 2011 00:33:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ulampinoy.com/categories/fruits-brunch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Red Brown Brunch</title>
+      <link>https://www.ulampinoy.com/archive/2011-07-21-red-brown-brunch/</link>
+      <pubDate>Thu, 21 Jul 2011 00:33:31 +0000</pubDate>
+      
+      <guid>https://www.ulampinoy.com/archive/2011-07-21-red-brown-brunch/</guid>
+      <description>Brunch is a combination of breakfast and lunch. The term is a portmanteau of breakfast and lunch. Often, it is a heavy meal meant to take the place of both breakfast and lunch.
+A meal is not usually considered brunch if it is started before 10 o&amp;rsquo;clock in the morning, such meals would still be considered breakfast. Typically brunch is had at around 10AM, close to lunch time but still before.</description>
+    </item>
+    
+  </channel>
+</rss>

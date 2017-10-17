@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adventure Spain Featured on The Ulampinoy Project</title>
+    <link>https://www.ulampinoy.com/categories/adventure-spain-featured/</link>
+    <description>Recent content in Adventure Spain Featured on The Ulampinoy Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 01 Jul 2015 00:00:01 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.ulampinoy.com/categories/adventure-spain-featured/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jamón Tumaca</title>
+      <link>https://www.ulampinoy.com/archive/2015-07-01-tumaca/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:01 +0000</pubDate>
+      
+      <guid>https://www.ulampinoy.com/archive/2015-07-01-tumaca/</guid>
+      <description>Typical Spaniard breakfast of toasted bread with jamón, tomato(finely chopped or grated) and extra-virgin olive oil.
+ Pan tostada con tomate   Upscale it by adding a top layer of cured Spanish ham. When I said Spanish ham, I mean this:
+ Charcutería, the one stop shop for everything pork goodness. All made possible with Spain&amp;rsquo;s super dry low air humidity.</description>
+    </item>
+    
+  </channel>
+</rss>
