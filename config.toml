@@ -1,6 +1,5 @@
 baseurl = "https://www.ulampinoy.com/"
 title = "The Ulampinoy Project"
-theme = "adobo"
 
 [taxonomies]
 	tag = "tags"
