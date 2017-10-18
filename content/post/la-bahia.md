@@ -11,17 +11,20 @@ Mga ilan taon na rin ang nakalipas mula nang i-rekomenda sa amin ng ilang kaibig
 
 {{< figure src="/assets/photos/web/la-bahia-noodle-soup-bowls.jpg" title="Noodle soup na parehong napakasarap: seafoods at beef" class="full" >}}
 
-Sa weekend kapag nagagawi kami sa Tetuán at doon inaabutan ng pananghalian, isa sa pangunahing pinagpipilian namin ay ang la Bahia. Maliit lang ang lugar pero masarap naman ang mga putahe!
+Sa weekend kapag nagagawi kami sa Tetuán at doon inaabutan ng pananghalian, ang *la Bahia* ang isa sa pangunahing pinagpipilian namin. Maliit lang ang lugar pero masarap at katakam-takam naman ang mga putahe!
 
-Tuwing pumupunta kami sinusubukan namin ang bago sa amin. Dahil maraming putahe sa menu kaya gusto naming subukan ang mga ito kahit na noong nakaraang punta namin ay may mga nagustuhan na kami. Sulit na sulit! Halimbawa, dahil sa gusto naming subukan ang udon stir-fry, inorder namin at:
+Tuwing pumupunta kami, sumusubok kami ng bago mula sa kanilang menu. Halimbawa, dahil sa gusto naming subukan ang udon stir-fry, inorder namin ito:
 {{< figure src="/assets/photos/web/udon-stir-fry.jpg" title="Napakasarap na guisadong pansit udon" class="full" >}}
 {{< figure src="/assets/photos/web/la-bahia-udon-chopsticks.jpg" title="Extra fun kung gamit mo chopsticks" class="full" >}}
 
-At siyempre hindi mawawala ang mga nakasanaya't nakahiligan na, gaya ng **fried rice.** Ang karaniwang tawag dito sa Espanya ay *arroz tres delicias.* 
+Nakapakasarap nga at dahil may kakaibang tekstura ang udon kumpara sa nakasanayan ng pancit bihon o canton. Isa na namang putahe na tiyak na baballik-balikan namin dito!
+
+At siyempre hindi mawawala ang mga nakasanaya't nakahiligan na, ang **fried rice.** Ang karaniwang tawag dito sa Espanya ay *arroz tres delicias.* 
 
 {{< figure src="/assets/photos/web/fried-rice.jpg" title="Kanin pa lang ulam na!" class="full" >}}
 
+Ang pagkain sa labas ay inspirasyon sa puwedeng lutuin sa bahay para hindi naman nakakasawa ang mga ruting ulam.
+
 Umpisa pa lang yan kasi naparami pa namin i-share!
 
-Kasi napakarami pa ng mga masasarap n adbentur na nais namin ¡g ibahagi
-Ang pagkain sa labas ay inspirasyon sa puwedeng lutuin sa bahay para hindi naman nakakasawa.
+Napakarami pang mga masasarap na adbentur na nais namin ibahagi habang pinapanibago namin at pinalalawak ang UlamPinoy.
