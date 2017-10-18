@@ -4,6 +4,7 @@ date: 2017-08-16T23:30:08+02:00
 excerpt: "Ang tipikal na agahang Kastila ay kalimitang magaang lang kasama ng kape kadalasan o tsaa"
 whetter: "After ten AM"
 photo: "/assets/photos/web/pincho-tortilla.jpg"
+draft: true
 ---
 
 Ang tipikal na agahang Kastila ay kalimitang magaang lang. Nariyan ang ikonikong Churros. 
