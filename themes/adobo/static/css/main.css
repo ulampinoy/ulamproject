@@ -524,7 +524,7 @@ a:hover {
 
 .container {
   display: grid;
-  grid-template-columns: 4rem 1fr 4rem;
+  grid-template-columns: 1fr 1010px 1fr;
   padding: 0;
 }
 
@@ -700,7 +700,7 @@ main.posts .post-list {
 
 article {
   display: grid;
-  grid-template-columns: 1fr .4fr 440px 440px .4fr 1fr;
+  grid-template-columns: 1fr .4fr 320px 320px .4fr 1fr;
   margin: 0 auto;
   padding: 0;
   align-self: stretch;
@@ -865,15 +865,20 @@ footer p {
   font-size: .8rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .container {
     grid-template-columns: 1fr;
   }
   header.top {
-    height: 160px;
+    height: 120px;
+    padding: 0 1rem;
+  }
+  header.top h1 {
+    font-size: 1.6rem;
+    font-weight: 900;
   }
   main {
-    margin-top: 160px;
+    margin-top: 100px;
   }
   main.archive, main.videos {
     padding: 1rem;
@@ -906,12 +911,22 @@ footer p {
   article.post header h1 {
     font-size: 2.7rem;
   }
+  article figure {
+    grid-column-start: 1;
+  }
   article figure.full {
     grid-column: 1 / 6;
   }
   article figure.post-cover-image {
     height: auto;
   }
+  .recent-posts, .recent-videos {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 719px) {
   .recent-posts, .recent-videos {
     grid-template-columns: 1fr;
     grid-gap: 2rem;

@@ -20,7 +20,8 @@ Maraming taon na rin ang nakakalipas ginawa na iyan ng aming mga kaibigan namin 
 
 {{< figure src="/assets/photos/laing-ni-gigi.jpg" title="Laing ni Gigi" >}}
 
-Dabes, kapag nag-langis na ang gata! *Extra special* kapag may dilis. Patok na baon!
+Dabes talaga kapag nag-langis na ang gata! *Extra special* kapag may dilis. Patok na baon!
 
 {{< figure src="/assets/photos/tupper-spinach-laing.jpg" title="Espesyal na baon ang laing sa pananghalian" >}}
+
 
