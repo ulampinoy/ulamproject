@@ -10,7 +10,7 @@ body {
   color: #333;
   font-size: 14px;
   height: 100vh;
-  line-height: 1.8;
+  line-height: 1.6;
 
   // Post Themes
   &.dark-golden-toyo {
@@ -459,7 +459,7 @@ footer {
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
 
   .container {
     grid-template-columns:  1fr;
@@ -468,18 +468,22 @@ footer {
   header {
 
     &.top {
-      height: 120px;
+      height: 100px;
       padding: 0 1rem;
+      position: static;
       
       h1 {
-        font-size: 1.6rem;
+        font-size: 1.33rem;
         font-weight: 900;
+        margin-top: 1rem;
+        letter-spacing: 1px;
       }
     }
   }
 
   main {
-    margin-top: 100px;
+    margin-top: 0;
+    grid-column: 1 / 2;
 
     &.archive, &.videos {
       padding: 1rem;
@@ -494,7 +498,7 @@ footer {
   }
 
   .content {
-    padding: 1rem;
+    padding: 0 1rem;
     
     .featured-item {
       grid-template-columns: 1fr;
@@ -506,6 +510,14 @@ footer {
         img {
           height: auto;
         }
+      }
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
       }
     }
     
@@ -538,16 +550,27 @@ footer {
   }
 
   .recent-posts, .recent-videos {
-    
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-  }
-}
 
-@media screen and (max-width: 719px) {
-  .recent-posts, .recent-videos {
+    h3 {
+      font-size: 1rem;
+    }
     
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
+    .whetter {
+      font-size: .7rem;
+    }
+    .excerpt {
+      font-size: .8rem;
+    }
+  }
+
+  .adverts {
+    margin: 1.5rem auto;
+    padding: .5rem;
+  }
+
+  footer {
+    margin-top: 1rem;
   }
 }
