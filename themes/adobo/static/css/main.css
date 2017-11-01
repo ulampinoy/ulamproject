@@ -528,17 +528,18 @@ a:hover {
   padding: 0;
 }
 
+.container header {
+  grid-column: 1 / 4;
+}
+
 header.top {
   font-family: 'Space Mono', monospace;
-  top: 0;
   border-bottom: 1px solid rgba(204, 204, 204, 0.4);
-  position: fixed;
   height: 144px;
   background-color: rgba(255, 255, 255, 0.9);
-  width: 100vw;
-  z-index: 999;
-  padding: 0 3.2rem;
+  padding: 0 2rem;
   text-align: center;
+  width: 100%;
 }
 
 header h1 {
@@ -574,7 +575,6 @@ header nav ul li a {
 }
 
 main {
-  margin-top: 144px;
   grid-column: 2 / 3;
 }
 
@@ -653,6 +653,10 @@ main.posts .post-list {
   grid-template-columns: repeat(3, minmax(240px, 1fr));
   grid-gap: 3rem;
   grid-column: 4 / 12;
+}
+
+.recent-posts img.thm {
+  max-height: 200px;
 }
 
 .recent-videos {
@@ -886,6 +890,7 @@ footer p {
   }
   main.archive, main.videos {
     padding: 1rem;
+    margin-top: 0;
   }
   main .section-name {
     display: block;

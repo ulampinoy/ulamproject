@@ -99,21 +99,22 @@ a {
   display: grid;
   grid-template-columns: 1fr 1010px 1fr;
   padding: 0;
+
+  header {
+    grid-column: 1 / 4;
+  }
 }
 
 header {
 
   &.top {
     font-family: 'Space Mono', monospace;
-    top: 0;
     border-bottom: 1px solid rgba(204, 204, 204, 0.4);
-    position: fixed; 
     height: 144px;
     background-color: rgba(255, 255, 255, 0.9);
-    width: 100vw;
-    z-index: 999;
-    padding: 0 3.2rem;
+    padding: 0 2rem;
     text-align: center;
+    width: 100%;
   }
   h1 {
     text-transform: uppercase;
@@ -152,7 +153,6 @@ header {
 }
 
 main {
-  margin-top: 144px;
   grid-column: 2 / 3;
 
   &.post-content {
@@ -238,6 +238,13 @@ main {
   grid-template-columns: repeat(3, minmax(240px, 1fr));
   grid-gap: 3rem;
   grid-column: 4 / 12;
+
+  img {
+
+    &.thm {
+      max-height: 200px;
+    }
+  }
 }
 
 .recent-videos {
@@ -487,6 +494,7 @@ footer {
 
     &.archive, &.videos {
       padding: 1rem;
+      margin-top: 0;
     }
 
     .section-name {
