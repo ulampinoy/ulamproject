@@ -60,3 +60,4 @@ typings/
 .DS_Store
 themes/adobo/static/css/main.css
 themes/adobo/static/css/main.min.css
+public/
