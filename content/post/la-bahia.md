@@ -4,7 +4,6 @@ date: 2017-08-23T23:57:11+02:00
 excerpt: "Ang aming paboritong Chinese restaurant sa Madrid"
 whetter: "Nasa pagkain, wala sa lugar"
 photo: "/assets/photos/web/la-bahia-entrance.jpg"
-featloc: "start"
 ---
 
 Mga ilan taon na rin ang nakalipas mula nang i-rekomenda sa amin ng ilang kaibigan ang **La Bahia.** Ang kanilang mga noodle soup at sariling-gawang mga *dumplings* ang una naming sinubukan at nagustuhan. Mula noon ay lagi na namin itong binabalik-balikan!

@@ -233,7 +233,7 @@ main {
   display: block;
 }
 
-.recent-posts {
+.recent-posts, .recent-found {
   display: grid;
   grid-template-columns: repeat(3, minmax(240px, 1fr));
   grid-gap: 3rem;
@@ -327,7 +327,7 @@ article {
       object-fit: cover;
       object-position: 100% 50%;
     }
-
+    
     &.post-cover-image {
       display: block;
       overflow: hidden;

@@ -4,14 +4,14 @@ date: 2018-01-06T09:38:51+08:00
 excerpt: "Ang kumpletong almusal mula sa inyong suking magtataho"
 whetter: "Tahooooooo!"
 photo: "/assets/photos/taho-cups.jpg"
-draft: "true"
+featloc: "start"
 ---
 
-Tahooooo! Iyan ang sigaw sa umaga na inaabangan lalo na ng mga mahilig sa semi-likidong almusal. Nagsisilbi itong alarm sa marami dahil maasahang nasa takdang oras ang pagdating ng magtataho.
+Tahooooo! Iyan ang sigaw sa umaga na inaabangan lalo na ng mga mahilig sa semi-likidong almusal. Nagsisilbi itong hudyat ⏰ para sa marami dahil maasahang nasa takdang oras ang pagdating ng magtataho.
 
 {{< figure src="/assets/photos/taho-vendor-01.jpg" title="Ang ating suking magtataho" class="full" >}}
 
-Matapos ang ang rituwal ng magtataho, na tanggalin ang parang tubig na katas laging pumapaibabaw tuwing magbubukas ng takip  ang magtataho sa kanyang mga timbang stainless, siya ay mabilis na sumasalok gamit ang kanyang pinasadyang maliit na sandok na may eksaktong lalim lang parang kumuha ng maninipis pero buong mga kapa ng mainit na taho.
+Matapos ang rituwal ng magtataho na tanggalin ang parang tubig na katas na laging pumapaibabaw tuwing magbubukas ng takip ang magtataho sa kanyang mga timbang stainless, siya ay mabilis na sumasalok gamit ang kanyang pinasadyang maliit na sandok na may eksaktong lalim lang parang kumuha ng maninipis pero buong mga kapa ng mainit na taho.
 
 {{< figure src="/assets/photos/taho-collage-01.jpg" title="Tahoo, sago at arnibal" class="full" >}}
 
