@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+<div class="container">
+    <header class="top">
+        <h1><a href="#">Ulam Pinoy Project</a></h1>
+    </header>
+    <main class="posts">
+        <h2 class="section-name">Ang mga Ulam Posts</h2>
+
+        <section class="featured">
+            {{ range first 1 (where .Site.Pages.ByDate.Reverse "Params.featloc" "start") }}
+            <div class="featured-item">
+                <figure>
+                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt="" class="thm"></a>
+                </figure>
+                <div class="teaser">
+                    <small class="whetter">{{ .Params.whetter }}</small>
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    <p class="excerpt">
+                        {{ .Params.excerpt }}
+                    </p>
+                </div>
+
+            </div>
+            {{ end }}
+        </section>
+        <section class="recent-posts">
+            {{ range first 7 (where .Data.Pages "Type" "post") }} {{ if not (in .Params.featloc "start")}}
+            <div class="recent-post-item">
+                <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt="" class="thm"></a>
+                <small class="whetter">{{ .Params.whetter }}</small>
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p class="excerpt">
+                    {{ .Params.excerpt }}
+                </p>
+            </div>
+            {{ end }} {{ end }}
+        </section>
+    </main>
+</div>
+{{ partial "footer.html" . }}

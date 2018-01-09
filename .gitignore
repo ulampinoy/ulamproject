@@ -61,3 +61,4 @@ typings/
 themes/adobo/static/css/main.css
 themes/adobo/static/css/main.min.css
 public/
+dist/
