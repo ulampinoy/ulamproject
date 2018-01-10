@@ -7,7 +7,7 @@ photo: "/assets/photos/web/crack-beef.jpg"
 found: "true"
 ---
 
-Matapos mapanood tiyak na maghahanap kayo ng masarap na tapsilog! Panuorin ang masaya at masarap na kuwentuhan at kainan sa episode ng Brothers Green Eats. Katakamtakam at madali ring sundan ng recipe ng kanyang panauing si Norman sa kanyang bersyon ng tapsi.
+Matapos mapanood tiyak na maghahanap kayo ng masarap na tapsilog! Panuorin ang masayang kuwentuhan at masarap na kainan sa episode ng Brothers Green Eats. Katakam-takam at madali ring sundan ng recipe ng kanyang panauhing si Norman sa kanyang bersyon ng tapsi.
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9S6-fj7IuSA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </p>
