@@ -633,7 +633,7 @@ aside {
 
 .featured-item h3 {
   font-size: 2.7rem;
-  margin: 1rem 0 0;
+  margin: .5rem 0 0;
 }
 
 .featured-item p {
@@ -807,7 +807,6 @@ article .post-date {
 
 article .original-source {
   font-weight: 600;
-  font-size: .9rem;
 }
 
 article .photo-panel {
