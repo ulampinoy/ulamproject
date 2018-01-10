@@ -493,6 +493,20 @@ img.thm {
   object-fit: cover;
   margin-bottom: 1rem;
   height: 200px;
+  transition: cubic-bezier(0.16, 0.8, 0.4, 1) 320ms;
+}
+
+img.thm:hover {
+  opacity: .97;
+  transform: scale(1.05);
+  overflow: hidden;
+  display: block;
+}
+
+.thumbnail-frame {
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 1rem;
 }
 
 blockquote {
@@ -623,6 +637,7 @@ aside {
 
 .featured-item figure {
   margin: 0 0 2rem;
+  overflow: hidden;
 }
 
 .featured-item figure img {
@@ -655,8 +670,8 @@ aside {
 
 .recent-posts {
   display: grid;
-  grid-template-columns: repeat(3, minmax(240px, 1fr));
-  grid-gap: 3rem;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  grid-gap: 2rem;
   grid-column: 4 / 12;
 }
 
@@ -704,7 +719,7 @@ aside {
   padding: .3rem .5rem;
   text-transform: uppercase;
   letter-spacing: .5rem;
-  margin: 4rem 0 1rem;
+  margin: 4rem 0 2rem;
 }
 
 article {

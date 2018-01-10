@@ -6,7 +6,6 @@
     </header>
     <main>
         <div class="content">
-            
             <section class="featured">
                 {{ range first 1 (where .Site.Pages.ByDate.Reverse "Params.featloc" "start") }}
                 <div class="featured-item">
@@ -24,9 +23,13 @@
                 {{ end }}
             </section>
             <section class="recent-posts">
-                {{ range first 8 (where .Data.Pages "Type" "post") }} {{ if not (in .Params.featloc "start")}}
+                {{ range first 9 (where .Data.Pages "Type" "post") }} {{ if not (in .Params.featloc "start")}}
                 <div class="recent-post-item">
-                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt="" class="thm"></a>
+                    <div class="thumbnail-frame">
+                        <a href="{{ .RelPermalink }}">
+                            <img src="{{ .Params.photo }}" alt="" class="thm">
+                        </a>
+                    </div>
                     <small class="whetter">{{ .Params.whetter }}</small>
                     <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     <p class="excerpt">
@@ -44,7 +47,9 @@
             <section class="recent-videos">
                 {{ range first 9 (where .Data.Pages "Type" "video") }}
                 <div class="recent-post-item">
-                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt="" class="thm"></a>
+                    <div class="thumbnail-frame">
+                        <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt="" class="thm"></a>
+                    </div>
                     <small class="whetter">{{ .Params.whetter }}</small>
                     <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
                     <p class="excerpt">
@@ -53,26 +58,28 @@
                 </div>
                 {{ end }}
             </section>
+
             <div class="adverts">
                 {{ partial "ads-bottom-respo" . }}
             </div>
+
             <h2 class="section-name">Mula sa Ulam Pinoy Archive</h2>
             <section class="archive-featured">
                 {{ range first 8 (where .Data.Pages "Type" "archive") }}
                 <div class="recent-post-item">
-                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt="" class="thm"></a>
-                    <small class="whetter">{{ .Params.whetter }}</small>
+                    <div class="thumbnail-frame">
+                        <a href="{{ .RelPermalink }}"><img src="{{ .Params.photo }}" alt="" class="thm"></a>
+                    </div>
                     <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-                    <p class="excerpt">
-                        {{ .Params.excerpt }}
-                    </p>
                 </div>
                 {{ end }}
             </section>
         </div>
+
         <div class="adverts">
             {{ partial "ads-bottom-respo" . }}
         </div>
+        
     </main>
 </div>
 {{ partial "footer" . }}
