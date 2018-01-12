@@ -662,10 +662,11 @@ aside {
 .whetter {
   text-transform: uppercase;
   font-size: .8rem;
-  font-weight: 800;
-  letter-spacing: .1rem;
+  font-weight: 600;
+  letter-spacing: .05rem;
   color: #888;
   display: block;
+  margin-bottom: .5rem;
 }
 
 .recent-posts {
@@ -768,6 +769,15 @@ article figure.post-cover-image {
   min-width: 100%;
   grid-column: span 6;
   margin: 0 auto;
+}
+
+article.post a {
+  font-weight: 600;
+  color: #A60000;
+}
+
+article.post a:hover {
+  color: #d90000;
 }
 
 article.post h3 {
