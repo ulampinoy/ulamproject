@@ -15,12 +15,29 @@
         <small class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</small>
       </header>
         {{ .Content }}
-      </div>
     </article>
 
     <div class="adverts">
       {{ partial "ads-bottom-respo" . }}
     </div>
+
   </main>
+
+  <div class="page-nav">
+    {{ with .PrevInSection }}
+      <a class="previous" href="{{.Permalink}}">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        <span>{{.Title}}</span>
+    </a>
+    {{ end }}
+    {{ with .NextInSection }}
+      <a class="next" href="{{.Permalink}}">
+        <span>{{.Title}}</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </a>
+      
+    {{ end }}
+</div>
+
   {{ partial "footer" . }}
 </div>

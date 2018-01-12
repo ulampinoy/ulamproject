@@ -875,7 +875,6 @@ article .photo-panel.p1p2 figure:first-child {
 
 footer {
   grid-column: 1 / 4;
-  grid-row-end: 4;
   font-family: 'Space Mono', monospace;
   margin-top: 4rem;
   padding: 1rem 0;
@@ -917,9 +916,11 @@ footer p {
     text-align: center;
     width: fit-content;
   }
+
   .content {
     padding: 0 1rem;
   }
+  
   .content .featured-item {
     grid-template-columns: 1fr;
   }
@@ -975,3 +976,29 @@ footer p {
     margin-top: 1rem;
   }
 }
+
+.page-nav {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1rem;
+  grid-column-start: 2;
+}
+
+.page-nav a {
+  padding: 3rem;
+  border: 1px solid #eee;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.page-nav a:hover {
+  border-color: #ccc;
+}
+.page-nav a svg {
+  vertical-align: text-top;
+}
+
+.page-nav a.next {
+  text-align: right;
+}
+
